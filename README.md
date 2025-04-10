@@ -11,7 +11,7 @@ This project implements the K-means++ algorithm in Python for initial centroid s
 
 | File              | Description |
 |-------------------|-------------|
-| `kmeans_pp.py`    | Main Python script — handles CLI, I/O, K-means++, and integration with C extension |
+| `kmeans_pp.py`    | Main Python script — handles command-line arguments , I/O, K-means++, and integration with C extension |
 | `kmeans.c`        | Core K-means algorithm |
 | `kmeans.h`        | Header for K-means function |
 | `kmeansmodule.c`  | C extension for Python using C API |
